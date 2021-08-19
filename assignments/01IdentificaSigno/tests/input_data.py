@@ -7,15 +7,32 @@ input_values = [
         # Inputs
         ["-8"],
         # Outputs
-        ["Dame un número: ", "Es negativo"],
+        ["Dame un número: ", "Par negativo"],
         # Error message
         "Revisa la condición y la indentación. Revisa el signo"
     ),
     (
         # Inputs
-        ["0"],
+        ["-31"],
         # Outputs
-        ["Dame un número: ", "Es cero"],
+        ["Dame un número: ", "Impar negativo"],
         # Error message
         "Revisa la condición y la indentación. Revisa el signo"
-    )]
+    ),
+    (
+        # Inputs
+        ["31"],
+        # Outputs
+        ["Dame un número: ", "Impar positivo"],
+        # Error message
+        "Revisa la condición y la indentación. Revisa el signo"
+    ),
+    (
+        # Inputs
+        ["30"],
+        # Outputs
+        ["Dame un número: ", "Par positivo"],
+        # Error message
+        "Revisa la condición y la indentación. Revisa el signo"
+    )
+    ]

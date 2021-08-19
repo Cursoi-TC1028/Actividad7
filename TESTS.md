@@ -24,7 +24,7 @@ sudo -H pip3 install pytest
 - ## 03 Tipo Tirángulo
     ### Run command
     ```
-    pytest assignments/03TipoTriangulo
+    pytest assignments/02TipoTriangulo
     ```
 
 - ## 04 Máximo
